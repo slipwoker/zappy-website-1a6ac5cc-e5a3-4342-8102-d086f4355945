@@ -1,47 +1,58 @@
-# Business — Generative Engine Optimization Map
+# אתגר שירותי ליווי ולייעוץ עסקי — Generative Engine Optimization Map
+
+> שלום יש לי דומיין ואני מחובר לוורדפרס ורצה לעצב ולהקים את האתר שלי
 
 ---
 
 ## Pages
 
 ### בית
-https://example.com
+https://etgar-business-consulting-serv.zappy5.app
 ייעוץ עסקי לסטארטאפים בישראל המביא תוצאות מדידות. ליווי אישי למייסדים ויזמים שרוצים לצמוח חכם ומהר. בואו נהפוך את החזון שלכם למציאות עסקית.
 
 ### שירותים
-https://example.com/services
+https://etgar-business-consulting-serv.zappy5.app/services
 שירותי ליווי עסקי לעסקים קטנים וסטארטאפים: תכנון אסטרטגי, ייעול תהליכים, גיוס משקיעים והכוונה עסקית. פתרונות מעשיים שמניבים תוצאות מיידיות.
 
 ### אודות
-https://example.com/about
+https://etgar-business-consulting-serv.zappy5.app/about
 יועץ עסקי למייסדי סטארטאפים עם ניסיון מוכח בהובלת עסקים להצלחה. הכירו את הגישה המקצועית שלנו, הערכים שמנחים אותנו והסיפורים שמעוררים השראה.
 
 ### צור קשר
-https://example.com/contact
+https://etgar-business-consulting-serv.zappy5.app/contact
 מוכנים לקפיצת מדרגה עסקית? צרו קשר עכשיו לייעוץ עסקי לסטארטאפים בישראל. פגישת ייעוץ ראשונית ללא התחייבות. בואו נדבר על האתגרים שלכם ונמצא פתרונות.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://etgar-business-consulting-serv.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://etgar-business-consulting-serv.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://etgar-business-consulting-serv.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About אתגר שירותי ליווי ולייעוץ עסקי
+שלום יש לי דומיין ואני מחובר לוורדפרס ורצה לעצב ולהקים את האתר שלי
+
+## Target Audience
+- בעלי עסקים קטנים
+- מייסדי סטארטאפים טכנולוגיים
+
+## Industry
+General
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://etgar-business-consulting-serv.zappy5.app/sitemap.xml
+- **Robots.txt**: https://etgar-business-consulting-serv.zappy5.app/robots.txt
