@@ -325,16 +325,16 @@
 
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg class="hamburger-icon" width="24" height="24" viewbox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" style="display: none;">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
   <button class="phone-header-btn" aria-label="Call">
-    <svg width="20" height="20" viewbox="0 0 24 24" fill="currentColor">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
@@ -736,7 +736,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0533380947';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -796,11 +796,11 @@
       <p class="contact-hero-subtitle">נשמח לשמוע ממך ולהבין את האתגרים העסקיים שלך. אנחנו מתחייבים לחזור אליך תוך 24 שעות עם תשובה מקצועית ומפורטת. שתף אותנו במטרות שלך ובאיזה תחום אתה מחפש ליווי.</p>
       
       <div class="contact-hero-actions">
-        <a href="mailto:[business_email]" class="btn-primary btn-contact">
+        <a href="mailto:smeraboabed@gmail.com" class="btn-primary btn-contact">
           <i class="fas fa-envelope" aria-hidden="true"></i>
           <span>שלח אימייל</span>
         </a>
-        <a href="tel:[business_phone]" class="btn-secondary btn-contact">
+        <a href="tel:0533380947" class="btn-secondary btn-contact">
           <i class="fas fa-phone" aria-hidden="true"></i>
           <span>התקשר עכשיו</span>
         </a>
@@ -809,7 +809,7 @@
   </div>
   
   <div class="contact-hero-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 100" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="contact-hero-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" style="stop-color:rgba(7,10,15,0.92);stop-opacity:1"></stop>
@@ -831,27 +831,27 @@
     <div class="contact-contact-details-cards">
       <div class="contact-contact-details-card">
         <div class="contact-contact-details-card-icon">
-          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M3 8L10.89 13.26C11.2187 13.4793 11.6049 13.5963 12 13.5963C12.3951 13.5963 12.7813 13.4793 13.11 13.26L21 8M5 19H19C19.5304 19 20.0391 18.7893 20.4142 18.4142C20.7893 18.0391 21 17.5304 21 17V7C21 6.46957 20.7893 5.96086 20.4142 5.58579C20.0391 5.21071 19.5304 5 19 5H5C4.46957 5 3.96086 5.21071 3.58579 5.58579C3.21071 5.96086 3 6.46957 3 7V17C3 17.5304 3.21071 18.0391 3.58579 18.4142C3.96086 18.7893 4.46957 19 5 19Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </div>
         <h3>דוא״ל</h3>
-        <p class="contact-contact-details-card-value">[business_email]</p>
+        <p class="contact-contact-details-card-value">smeraboabed@gmail.com</p>
         <p class="contact-contact-details-card-description">שלחו לנו הודעה בכל עת – נחזור אליכם תוך 24 שעות.</p>
       </div>
       <div class="contact-contact-details-card">
         <div class="contact-contact-details-card-icon">
-          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M3 5C3 3.89543 3.89543 3 5 3H8.27924C8.70967 3 9.09181 3.27543 9.22792 3.68377L10.7257 8.17721C10.8831 8.64932 10.6694 9.16531 10.2243 9.38787L7.96701 10.5165C9.06925 12.9612 11.0388 14.9308 13.4835 16.033L14.6121 13.7757C14.8347 13.3306 15.3507 13.1169 15.8228 13.2743L20.3162 14.7721C20.7246 14.9082 21 15.2903 21 15.7208V19C21 20.1046 20.1046 21 19 21H18C9.71573 21 3 14.2843 3 6V5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </div>
         <h3>טלפון</h3>
-        <p class="contact-contact-details-card-value">[business_phone]</p>
+        <p class="contact-contact-details-card-value">0533380947</p>
         <p class="contact-contact-details-card-description">התקשרו ישירות לשיחה מהירה ויעילה בנושא שלכם.</p>
       </div>
       <div class="contact-contact-details-card">
         <div class="contact-contact-details-card-icon">
-          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 8V12L15 15M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </div>
@@ -862,7 +862,7 @@
     </div>
   </div>
   <div class="contact-contact-details-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 80" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,80 L0,35 Q150,40 300,32 Q450,38 600,30 Q750,35 900,28 Q1050,33 1200,25 L1200,80 Z" fill="#0C111B"></path>
     </svg>
   </div>
@@ -900,19 +900,19 @@
         <p>נחזור אליך תוך 24 שעות עם תגובה מפורטת ותכנון צעדים ראשוניים. אנחנו כאן כדי להבין את האתגרים שלך ולהציע פתרונות מדויקים.</p>
         <ul class="contact-contact-reassurance-list">
           <li>
-            <svg data-no-icon-edit="true" aria-hidden="true" width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg data-no-icon-edit="true" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0zm4.707 7.707l-5 5a1 1 0 01-1.414 0l-2.5-2.5a1 1 0 111.414-1.414L9 10.586l4.293-4.293a1 1 0 111.414 1.414z" fill="currentColor"></path>
             </svg>
             <span>המטרה העסקית שלך ומה שאתה מקווה להשיג</span>
           </li>
           <li>
-            <svg data-no-icon-edit="true" aria-hidden="true" width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg data-no-icon-edit="true" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0zm4.707 7.707l-5 5a1 1 0 01-1.414 0l-2.5-2.5a1 1 0 111.414-1.414L9 10.586l4.293-4.293a1 1 0 111.414 1.414z" fill="currentColor"></path>
             </svg>
             <span>לוח הזמנים המשוער שלך ואבני דרך חשובות</span>
           </li>
           <li>
-            <svg data-no-icon-edit="true" aria-hidden="true" width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg data-no-icon-edit="true" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M10 0C4.477 0 0 4.477 0 10s4.477 10 10 10 10-4.477 10-10S15.523 0 10 0zm4.707 7.707l-5 5a1 1 0 01-1.414 0l-2.5-2.5a1 1 0 111.414-1.414L9 10.586l4.293-4.293a1 1 0 111.414 1.414z" fill="currentColor"></path>
             </svg>
             <span>האתגר או החסם המרכזי שאתה מתמודד איתו כרגע</span>
@@ -924,7 +924,7 @@
 
   <!-- Bottom Divider -->
   <div class="contact-contact-form-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 2" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 2" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <line x1="0" y1="1" x2="1200" y2="1" stroke="#F59E0B" stroke-width="2"></line>
     </svg>
   </div>
@@ -966,7 +966,7 @@
   </div>
 
   <div class="contact-faq-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 100" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="faq-vignette-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" style="stop-color:var(--bg-light);stop-opacity:1"></stop>
@@ -1012,23 +1012,23 @@
         <ul class="contact-list">
           <li>
             <i class="fas fa-envelope"></i>
-            <a href="mailto:[business_email]">[business_email]</a>
+            <a href="mailto:smeraboabed@gmail.com">smeraboabed@gmail.com</a>
           </li>
           <li>
             <i class="fas fa-phone"></i>
-            <a href="tel:[business_phone]">[business_phone]</a>
+            <a href="tel:0533380947">0533380947</a>
           </li>
           <li><a href="/"><i class="fas fa-map-marker-alt"></i>
-            <span>[business_address]</span></a></li>
+            <span>מחפוז נגיב 7, רהט, ישראל</span></a></li>
         </ul>
       </div>
       
       <div class="footer-column footer-social">
         <h3 class="footer-heading">עקבו אחרינו</h3>
         <div class="social-links">
-          <a href="[facebook_handle]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-          <a href="[instagram_handle]" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          <a href="[whatsapp_handle]" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="Facebook" style="display:none !important;"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram" style="display:none !important;"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="WhatsApp" style="display:none !important;"><i class="fab fa-whatsapp"></i></a>
         </div>
       </div>
     </div>
